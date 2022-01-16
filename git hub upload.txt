@@ -1,0 +1,20 @@
+rm -r .git// to remove
+git init 
+git remote add origin paste link and password//https://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@github.com/SumanGaniger1999/Java-pgms.git
+git checkout -b arrays
+git add .
+$ git commit -m "Task on Array"
+git push origin Array
+git checkout branchName
+
+
+
+
+
+
+
+https://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@github.com/SumanGaniger1999/jdbc.git
+
+
+
+Hello Team, I am Suman Ganiger .Interested in the role of a Software Engineer  where I can contribute my analytical skills and knowledge acquired by pursuing my degree in Software Engineering.My technical skills are Java,Web development.I did my project on Machine Learning.I had contacted by Vikas sir and I have attached my resume this mail.

@@ -1,0 +1,36 @@
+for creating project ->file new,project,java project, 
+creating project means application
+for creating packages it start always with com or org ->src,file,packages  (com.company name.application)->std package
+packages is nothing but folders,organise files in a standarad.
+ 
+
+Two types of packages
+User defined pachage,built in packages
+14 built in packages in java
+
+default package in java.lang
+writing import statement becomes optional
+
+Navigator
+ hotel
+>.settings
+>bin
+>src
+ -com
+ -xworkz
+ -hotelapp
+ .classpath
+ .project
+
+for .java file,others,class then className.java
+
+.class will be in bin
+.java will be in  src
+
+package +classname is FQCN
+
+com.surya.ligth.............not visible()
+
+behaviour of private->within the same package
+default->package
+public -everywhere

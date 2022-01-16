@@ -1,0 +1,28 @@
+class TypeCasting{
+
+
+public static void main(String a[]){
+
+double x=11.08;
+ long y=(long)x;   //(int )x   is a explicit casting or narrowing casting,it is done manual
+
+
+System.out.println(y );//explicit means converting larger type to smaller type
+
+}
+}
+// Type of casting are:data Typecasting and reference type casting
+//reference is done when object is created
+// upcasting is reference typecasting ex:-polymorphism,it contains parent ref and child object--giving parent reference to child object
+//reference it is also called as is a relationship
+//upcasting ->Bank bank= new BandhanBank();
+//upcasting is mandatory
+//downcasting is a typecasting of parent object to the child object
+//downcasting means from generic to specific ,i.e parent to  child
+//generic-parent class or object,specific-child class
+//upcasting has to be done to do downcasting mandatorly
+//if we write downcasting directly we get error i.e ClassCastException at runtime
+//converting to String to any datatype it is parsing
+
+
+// ex of downcasting ->BandhanBank   bandhanBank=new (BandhanBank)bank; 

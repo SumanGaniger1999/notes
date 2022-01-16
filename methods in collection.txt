@@ -1,0 +1,36 @@
+toArrayg(); converts collection  to  Array
+
+
+Array is a utilityclass which performace array related
+
+
+convert all the types of Array to String
+Arrays.toString(ref of different type of arrays)
+
+convert Collection to Array
+
+convert Array to List
+
+sort all the type of array in AscendingOrder
+
+
+  //Arrays Utility class
+	  Arrays.asList("",""," ") ;   
+
+All methods inside array are static
+
+
+
+add
+addAll
+remove
+removeAll
+contains
+containsAll
+hashCode
+toString
+forEach
+size
+soon 
+these are methods are in Queue,List,Set                                                                                                
+		

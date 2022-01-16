@@ -1,0 +1,15 @@
+Inheritance-Acquring properties from one class to another class
+
+Hp is-a Laptop
+Kodak is a LCD
+Xworkz is-a Institute
+ inheritance should contain 2 classes
+
+Aggregation and compasition
+
+Acquiring properties from super class to subclass is inheritance
+
+MNC
+Protected is always used in inheritance
+
+has a-> dont have parent and class concept

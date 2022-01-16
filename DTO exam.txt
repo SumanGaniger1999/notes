@@ -1,0 +1,11 @@
+GoldDTO-price,caret,
+PropertyDTO---typeOfProperty,Name,Size,location,OwnerName,Price
+LibraryDTO
+LicDTO--policyID,agentName,customerName,years
+DrivingLicenseDTO
+KfcDTO
+ZomatoDTO
+PharmacyDTO--ID,Name,location
+ProjectDTO-projectId,project title,noOfMembers,isProjectCompleted
+
+

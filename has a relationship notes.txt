@@ -1,0 +1,22 @@
+has a relation
+it should have a 
+it has a reference of a particular class
+the class have reference of another class is called has A relation
+ex :Airport has a Terminal
+ex:public Terminal terminals;//declaring variable  //Terminal ->class type i.e non-primitive datatype,terminals is reference
+
+class Terminal{
+
+
+}
+two entities
+1)owning entity
+2)
+
+types of has a relation
+1)one to one
+2)one to many -one class have reference of many class
+3)many to one
+4)many to many
+
+ex:System.out.println

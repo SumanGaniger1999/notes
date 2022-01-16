@@ -1,0 +1,40 @@
+for(int s=0;s<length;s++){
+
+System.out.println(countaryName[z]);
+
+
+}
+
+
+syntax:
+
+  for(declaration/initialization;condition ; increment/decrement){
+
+System.out.println(countryName[z] +"  ");
+
+}
+
+
+
+relational operators
+
+!=
+<
+>
+<=
+>=
+==
+
+
+
+for(int s=teams.length-1;s>=0;s--){
+
+System.out.println(teams[s]);
+
+}
+s
+
+we can create different array by using Object type
+constraint,
+common problem -
+user provides default value for array

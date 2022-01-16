@@ -1,0 +1,10 @@
+Collection Framework
+Why use Collection ?
+To overcome the common problem of arrays so we go with CollectionFramework
+
+A
+
+
+collection has 
+iterator to fetch the data
+forEach  to fetch the data

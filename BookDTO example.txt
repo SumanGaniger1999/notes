@@ -1,0 +1,29 @@
+BookDTO
+bookId
+bookName
+authorName
+publisher
+price
+noOfPages
+edition
+
+
+public boolean saveBooks(BookDTO dto)
+public void getAllBooks()
+ getBookById
+String getBookNameByAuthor(author)
+getPublisherNameByBookName(bookName)
+BookDTO getBookByName
+ String getAuthorNameByPrice(price)
+   getEditionByPublisher(publisher)
+updateAuthorNameByBookId(authorName,bookId)
+deleteBookByBookName(bookName)
+
+
+
+
+
+
+//deletePatientById
+//updatePatientAddressByPatientName(int patientId,String patientName)
+//updatePatientAddressByPatientId(String address,int patientId)

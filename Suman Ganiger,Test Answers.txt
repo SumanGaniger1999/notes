@@ -1,0 +1,211 @@
+1)Write the output for the following code
+->Both trainers are diiferent
+2)Is java purely object oriented ?Why?
+Ans:No,javsa is not purely object oriented because it uses primitive data types
+3)What is variables and why we are using variables?
+Ans:Variables is a container that stores data values,it is used to store information
+4)why we are creating applications?
+Ans:Java provides feature which helps in application
+5)What is polymorphism .Types of polymorphism
+Ans:An object behaving differently at given instance of time is called polymorphism.
+Types of polymorphism are :Compile time polymorphism and runtime polymorphism.
+6)What is overloading?Write example for overloading
+Ans:Overloading having same method name inside same class if it accepts different arguments.
+  ex:
+     class Supermarket{
+
+           static String perfumes[]={"Wotta girl","Eva","Engage","Sweet Heart","Fogg","VIP"};
+           static String fruits[]={"Mango","Strawberry","Watermelon","Orange","Sweet Lemon","Apple"};
+  
+           static String perfume="Ajmal";
+
+    public static void  main(String a[]){
+      System.out.println("Main method Started");
+      getPerfumes(perfumes);
+      getFruits(fruits);
+      String perf=getPerfumes(perfume);
+      System.out.println(perf);
+
+}
+
+
+   public static void getPerfumes(String[] perfumes){
+        System.out.println("inside getPerfume method with string array parameters");
+        for(int i=0;i<perfumes.length;i++){
+        System.out.println(perfumes[i]);
+}
+}
+
+  public static void getFruits(String[] fruits){
+      System.out.println("inside getPerfume method with string array parameters");
+     for(int i=0;i<fruits.length;i++){
+     System.out.println(fruits[i]);
+}
+}
+
+ public static String getPerfumes(String perfume){
+   System.out.println("inside getperfume method");
+   return perfume;
+
+}
+}
+
+7)What is overriding?Write example for overiding.
+Ans: If a subclass provides the specific implementation of the method that has been declared by one of its parent class is known as method overriding.
+ 
+   
+     public class GoldDTO{
+
+public GoldDTO(){
+
+System.out.println("Gold object is created");
+
+}
+
+private String price;
+private String weight;
+
+public String getPrice(){
+return price;
+}
+
+public void setPrice(String price){
+this.price=price;
+}
+
+public String getWeight(){
+return weight;
+}
+
+public void setWeight(String weight){
+this.weight=weight;
+}
+@Override
+public String toString(){
+return"GoldDTO-{price="+this.price+",weight="+this.weight+"}";
+}
+}
+
+
+class GoldTester{
+
+public static void main(String a[]){
+
+GoldDTO dto =new GoldDTO();
+dto.setPrice("Rs.20000");
+dto.setWeight("200gm");
+
+System.out.println(dto.toString());
+
+
+
+GoldDTO dto1 = new GoldDTO();
+dto1.setPrice("Rs.36726");
+dto1.setWeight("200gm");
+
+System.out.println(dto1.toString());
+}
+}
+
+
+8)Types of control flow statements
+Ans:Decision making statemnts:if,switch,
+Loop statements:for,do-while,while,
+Jump statements:break,continue
+
+9)Difference between static and final
+Ans:Static 
+    ->A varianles can be initialized again 
+     ->Methods can be called by other static methods and only access the static members of class
+     ->An object cannot be created from a static class ,it only consist static members.
+  Non-static
+    ->A variables cannot be intialized again
+    ->Methods cannot be overridden
+    ->Final classes cannot be inherited by other classes.
+10)What is method overriding.write an example
+    If a subclass provides the specific implementation of the method that has been declared by one of its parent class is known as overriding.
+
+public class ZomatoDTO{
+
+public ZomatoDTO(){
+
+System.out.println("Zomato object is created ");
+
+}
+
+private String restaurantName;
+private String itemName;
+private int price;
+
+public String getRestaurantName(){
+return restaurantName;
+}
+
+public void setRestaurantName(String restaurantName){
+this.restaurantName=restaurantName;
+}
+
+public String getItemName(){
+return itemName;
+}
+
+public void setItemName(String itemName){
+this.itemName=itemName;
+}
+
+public int getPrice(){
+return price;
+}
+public void setPrice(int price){
+this.price=price;
+}
+@Override
+public String toString(){
+return"Zomato-{restaurantName="+this.restaurantName+",itemName="+this.itemName+",price="+this.price+"}";
+}
+}
+
+
+class ZomatoUtil{
+
+public static void main(String a[]){
+
+ZomatoDTO dto=new ZomatoDTO();
+dto.setRestaurantName("Biriyani House");
+dto.setItemName("Veg Biriyani");
+dto.setPrice(100);
+
+System.out.println(dto.toString());
+
+}
+}
+11.starting()
+   End of main()
+
+12)Error
+
+13.What is array?Advantages of array
+->Array is a group of container that stores similar type of data into single variable.
+In an array, accessing an element is very easy by using the index number.
+The search process can be applied to an array easily.
+
+14)What is java.Features of java
+->Java is an high level object oriented programing language.
+  Features of java
+  ->Simple,Object-Oriented,Portable,Platform independent,Secured. 
+
+15)Runtime error
+ 
+16)What do you mean by Inheritance?Types of inheritance
+->Inheritance is acquiring properties from super class to sub class.
+ Types of inheritance
+ Single level,Multilevel and hierarchical.
+
+17)What is constructor and why we are using contructors
+->Constructor is special type of method which will be  same as class name with no return type.
+ we use use consturtor to store instance variables
+18) What is contructor chaning?
+->Constructor chaining is one where we call another constructor in a same class using this method
+
+20)Why this keyword is used?
+->this keyword is used to avoid the ambuigity between local variable and instance variable.

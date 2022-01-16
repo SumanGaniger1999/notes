@@ -1,0 +1,8 @@
+hashCode()-->it is a method of object class in java
+returns integer value OR it returns unique number  
+it is used for methodoveriding
+
+
+uppercase is class ex:Display,Character,Number
+lowerclass letter is method ex:display()
+hashcode has to called explicitly

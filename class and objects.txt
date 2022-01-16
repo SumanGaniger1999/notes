@@ -1,0 +1,49 @@
+class is a design or blueprint which contains behavoir and state ,behavior in the form of method,state or properties in the form variable .
+*object is a multiple copy of class
+object is a physical entity which we can touch ,feel
+object is instance of a class
+Object characteristics
+->Stste means it represent data of object
+->behavior means it represent behavior of object
+->identity means it represent unique name of object
+
+
+
+object get created on java memory
+object get created by reference variable
+or each and every object is associated with reference variable in java memory
+
+compiler initilazes default values
+instance variable are variable as soon as 
+
+class ClassName{
+
+variables.
+methods.           
+constructor.     //All are building blocks or members
+blocks..
+
+}
+
+
+
+variables
+methods
+blocks //these all are instances
+
+
+if we dont write constructor java compiler writes the constructor..
+command:-javap className
+
+Types of constructor
+parameters constructor
+default constructor:default constructor with no parameters
+constructor it is special type of method which will be same name as className with no return type and starts with uppercase
+constructor is used to store instance variable of class
+advantage of constructor to initialize the instance variable of class 
+
+this =to avoid ambigety between local .this is used when instance and local variable created and if compiler wants to point instance variable we use tis keyword 
+constructor is called when object is created
+
+compiler points to local variable when instance and local variable is created
+this -constructor,method,blocks

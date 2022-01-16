@@ -1,0 +1,8 @@
+IceCreamDTO-toString
+GodDTO3 -ID,name,place,4 var-toString
+CivilServiceDTO--Name,type
+JobsDTO
+GamesDTO
+CurrencyDTO
+ContinentsDTO
+StateDTO

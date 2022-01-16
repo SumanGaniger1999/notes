@@ -1,0 +1,99 @@
+Exception is an unwanted triggered by jvm 
+unwanted event occurs during execution of the program
+Exception is class in java 
+process of handling exception is called Exception Handling
+
+
+try{
+
+//code 
+}
+
+catch(ExceptionName ref){
+
+}
+
+
+
+
+
+
+if we want to handle error later ,instead of try catch we use throws keyword
+returntype of printStackTrace() is void//
+
+ways for creating try,catch
+try{
+}catch(){
+}
+
+
+try{
+}catch(){
+}catch(){
+}
+
+
+try{
+
+}
+
+finally{
+
+}
+
+
+
+
+
+
+
+
+ex:
+
+
+try{
+catch(Exception e){
+
+}
+finally{
+
+}
+
+
+
+
+
+
+Exception propogation
+where exception is passes from one method to another method or stackcall/stackwinding
+
+compiletime/check
+
+
+
+if we have multiple catch we write generic at last 
+try {
+			
+			Class.forName("com.xworkz.pubapp.bounce.Bounce");
+			Bouncer.check(age); //becuz it is declared static
+			//or bouncer.check(19);
+		} catch (PubException e) {
+			//catch(PubException | ClassNotFoundException),if more catch is there for same clause
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			e.getMessage();
+		}catch (ClassNotFoundException e) {
+			
+			
+			e.printStackTrace();// TODO: handle exception
+		}
+                    catch(Exception e){
+              e.printStckTrace();
+}
+		finally {
+			//close all the costly resources used for the application
+			//whether exception occuring or not finnally executed mandatorly
+			
+		if(sc!=null) {
+		sc.close();
+		}

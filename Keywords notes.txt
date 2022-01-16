@@ -1,0 +1,51 @@
+Java Fundamentals
+
+
+
+keywords are reserved words which have specific meaning
+keywords are always written with lower case
+
+Jvm understands only keywords and data associated with keywords
+
+Reserverd words->50+3
+
+ 3->are literal pre-defined reserved i.e true,false,null
+ 48+2
+      2->goto,const 
+class,public,static,void is a keyword
+
+ALL primitive datatypes are keywords
+keywords:
+class
+public 
+static 
+void
+byte
+short
+int
+long
+float
+double
+boolean
+char
+new
+return
+import
+if
+else
+for
+while
+do
+break
+switch
+case
+continue
+ 
+
+Identifiers
+1)Always identifiers should start with letters.
+2)Numbers can written at the middle and at end
+3)all the inbuilt classes are identifiers
+
+
+

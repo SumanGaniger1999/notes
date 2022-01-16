@@ -1,0 +1,5 @@
+iterable has iterator
+iterator has return type is Iterator only it has interface
+iterator to fetch data from the collection
+
+iterator is faster then forloop

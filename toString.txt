@@ -1,0 +1,10 @@
+toString returns always" state of an objects means values asigned to it"
+toString returned by jvm is hexadecimal
+toString is used in reference variables
+return String
+by performing @Override
+toString is called whenever reference variable is there
+
+in how many ways we can call toString 
+implicit we use reference  ex:System.out.println(dto); and 
+explicit we use reference.toString  ex:System.out.println(dto.toString());

@@ -1,0 +1,24 @@
+Single ton pattern->where I am restricting a class to create only one object.
+//blocks ->{}
+code is considered as intilizaing
+blocks are the also used to intilize members of the class specially non static members.
+Types of blocks
+1)instace intilization block or init block--->this is given to object
+if it is instance class then first instance is called the constructor is called
+2)static intilization block ex->static{ }--->this is given to className
+two references pointing to one object only.
+there is another way of doing it.
+power of static blocks ->block always go and sit before main method
+based on sequential manner blocks get executed.
+
+
+static block is called first then instance block is called
+
+for static we no need to create object.
+for instance we need to create object
+
+we cant write block inside a block
+can we write block inside block?
+can we write block inside a method
+Yes,we can write block inside a method
+

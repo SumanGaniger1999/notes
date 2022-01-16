@@ -1,0 +1,11 @@
+1)class loader:part of JVM that loads the bytecode.
+2)Bytecode verifier:checks the loaded bytecode are valid and not violating the rules of security.
+3)Intrepreter: Reads the byte code stream line by line and executes the pgm,
+4)jdk handles compiler
+5)jre handles runtime
+jre is in jvm
+6)JVM-clss loader
+      bytecode verifier
+      intrepreter
+
+java is not purely oject oriented becuz it supports primitive data types

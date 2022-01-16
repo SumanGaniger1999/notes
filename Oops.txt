@@ -1,0 +1,9 @@
+	Oops - object oriented programming structure or system
+
+class and Object
+java only understand only class and object
+
+class we do in compile time
+object we do in runtime
+
+class is a plan 

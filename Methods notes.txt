@@ -1,0 +1,37 @@
+git clone url
+
+git status
+
+cd java pgms
+
+git branch -b javaarrays
+
+method is a block of code which is use to perform certain functionality
+methodName(){
+
+
+}
+
+access modifiers returnType methodName(){ 
+methodName()
+ 
+public static ->are called as access modifier
+ method always represents in java as function.
+
+code reusability
+
+methodName( parameters)    ()=parenthesis
+
+(parameters=datatype variable)
+
+methodName with parameters is called signature of method
+
+
+method advantage of method code reusability
+
+we cannot write method inside method
+
+we can write return for void ex:return;
+when we combine with string we get
+String a="1"+'A';
+System.out.println("1"+'A');	

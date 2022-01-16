@@ -1,0 +1,12 @@
+
+//User defined Exception/Custom Exception
+class PubException extends Exception
+
+or
+
+class PubException extends RuntimeException
+any Exception that extending runtimeexception is custom unchecked
+
+
+any exception that extending Exception is called custom checked 
+throw always Exception

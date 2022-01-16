@@ -1,0 +1,16 @@
+String is a immutable.
+in String we use concat to add
+
+
+
+String builder and string buffer are mutable
+in this we use append method to concat or add
+
+all method inside builder is nonsynchronized  
+all method inside buffer is synchornized
+
+
+
+
+syncro-accessing one appli one by one
+notsyn-accessing one aplication multiple users

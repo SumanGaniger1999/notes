@@ -1,0 +1,215 @@
+Database is collection of related data . 
+DBMS is a platorm 
+
+item as 
+run
+
+MySQL 
+	
+
+Choosing setup type
+->
+
+user ->root
+SQL->Structured Query Language,it not case sensitive
+Domine Specific->(for contacting witn relation data)
+Declarative Lang(What to do)
+
+to create and manage the database
+CRUD
+
+      Statements has DQL(data query language)->we use this to fetch data from the database
+ 
+              SELECT is a command ,*->means all datas,FROM ->keywords
+                  select variable,set_time from sys.sys_config;
+
+DDL(data defination lang)
+Use to handle the structure
+
+CREATE DATABASE web_series;
+
+
+DBMS
+*It uses the navigational Structure 
+*It dont use the concept of normalization
+*It is designed for single user
+*it doesnt supports destributed database system
+
+
+
+
+
+RDBMS
+*It uses relational structure to store the data
+*uses concept of normalization
+*It is designed for multiple user
+*it is supports destributed database system
+
+
+DATA TYPES
+
+1)Number Type of data
+
+            4       9    11  20
+i)INT(TinyInt,MediumInt,INT,BigInt)-it holds 4 digits
+ii)Float(size of digit,d)10,24
+iii)Double(s,d)10,53
+iv)Decimals(s,d)->to hold the data more than float and Double
+
+2)Text Type of Data
+
+Char (200)->stores one character
+Varchar(s)->alphbets,numbers,special character
+Text(TinyText,Text,MediumText,LongText)
+
+3)Boolean and Binary
+          0       1
+Boolean(True or False)
+Binary-
+BLOB(Large Binary Object)
+(Tiny,Large,Medium,Small)
+
+4)Date and Time
+i)Data(YYY-MM-DD) (2021-4-4)
+ii)Time(HH:MM:SS)  (10:05:00)  
+iii)DataTime(YYY-MM-DD  HH:MM:SS)
+iv)TimeStamp(YYY-MM-DD  HH:MM:SS Zone)f
+v)Year(YYY) 2021
+
+
+
+
+VARCHAR(20)  Name
+YEAR          Year
+TINYINT      Seasons
+CHAR(20)     Lang
+VARCHAR(10)  Platform
+INT          Episodes
+FLOAT         Ratings
+
+DML->(data manipulation language)
+
+INSERT
+Create-create database and table
+*)ALTER CMDS-modify existing table 
+drop column
+rename column
+rename tablename
+modify the column datatype
+where for condition
+
+
+truncate-it is used to delete all the data from the table
+
+update 
+is editing existing data
+jnm 
+
+Delete
+
+Drop
+drop -it is used to delete the existing tables
+it is used to delete the existing database
+
+constraints
+
+it is a rules to restrict the data that can go into a particular column.
+Types of constraints
+
+1.NOT NULL-it will restrict the null type of datar
+2.UNIQUE -it doent allow duplicate data
+3.primary key-combination of unique and not null
+4.foriegn key-
+5)default -decide the default value
+6)check-provide condition to provide data
+
+
+
+
+
+IN-multiple operators
+Between-select range
+Distinct -to fetch unique data or ignor duplicate data
+
+order by-to sort data in ascn and desc
+
+Limited-it is used fetch the selected number of  data,it always fetch the data from top
+
+Pattern matching
+
+LIKE-keyword or operator
+
+wild card operators -this operator comes between we search
+1.%-zero or more characters.
+
+2._->represents only single characters
+
+%rathna%-it can be starting with ratna or 
+
+Alias 
+name AS movies_name
+
+Aggregate functions-it is used to do mathematical calculation.
+
+1.MAX()-maximum value from the particular column
+2.Min()
+3.Avg()
+4.Sum()
+5.count()
+
+
+Date and Time Function
+1.CURDATE()->current date
+2.curtime()->current time
+3.
+4.date('')
+5.time('')
+6.month('')
+7.year()
+8.day()
+
+9.hour
+8.mins
+10.sec
+
+Group By-it is used to organise the similar records into groups  based on the given columns.
+	we can use order by with group by .
+         we use group by always with select
+Having -filter data on already grouped data,it is used to give the condition on already grouped data.
+        it can be used to give the condition of aggregate functions.
+
+
+      Difference btwn WHERE and HAVING
+ 
+     WHERE                                                                              
+
+     *Filter the data on individual row  
+     *Where is used before group by 
+     *it acts as a pre-filter
+     *where cant be used with aggregate function     
+     *WHERE is used to apply filter with row operation 
+    
+
+     HAVING
+
+
+    *Filter on group data
+    *Having is used before group by
+    *it acts as  a pre-filter
+    *Having can be used with aggregate functions
+    *having is used to apply filter with column operation        
+
+
+
+ ->  ORDER of keywords
+
+   SELECT
+   FROM
+   WHERE
+   GROUP BY 
+   HAVING 
+   ORDER BY 
+   LIMIT
+
+
+We can have any number of inner queries                                         

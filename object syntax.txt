@@ -1,0 +1,3 @@
+Pen pen = new Pen();
+ 
+syntax :- ClassName ref = new ClassName(); //className is a contructor,constructor is called when object creation

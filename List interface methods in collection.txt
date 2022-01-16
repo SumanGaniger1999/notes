@@ -1,0 +1,7 @@
+add(int index,Object obj)
+  get(int index)   Object
+indexOf(Object obj)  int 
+ subList(int fromIndex,int toIndex)   List
+listIterator();  ListIterator
+iterator(); Iterator();
+    

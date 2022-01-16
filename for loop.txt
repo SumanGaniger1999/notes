@@ -1,0 +1,2 @@
+for(i=0;i<data.length();i++)//length()->method
+for(i=0;i<data.length;i++)//length 

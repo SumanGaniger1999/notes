@@ -1,0 +1,36 @@
+main method by jvm
+
+
+//Method overloading
+
+1)Two or more methods can have the same method name inside the same class if they accept different arguments.This feature is known as method overloading
+2)Method overloading is achieved by either:
+  i)changing the number of arguments or
+     changing the datatypes of arguments
+  ii)For methodoverloading there must be change in  parameters
+advantage is increases readability of the program
+
+
+Java Fundamentals:these are neccessary to develop java Program
+
+keywords--50+3  keywords in java
+Identifiers-are names given to class ,variables and methods.  
+class ClassName{
+	
+      variableName
+      methodName
+
+
+}
+
+Literals---values assign to any type of variables ex:dia,true.,int ,String or primitive,nonprimitive.float,all primtives ia a integral literal
+Variables---stores data
+Datatypes-----represent different value to store in any variables
+methods----block of codes
+operators.output of relational operators is true or false (<,>,==,!=),o/p of arthematic operators is integer
+OOPs
+Conditional Statements---
+
+
+ 
+  

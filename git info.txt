@@ -1,0 +1,5 @@
+git--powerfull tool
+github is not git
+github is a website for hosting projects that are git
+
+git-VCS-version control system-makes it easier to track changes to 

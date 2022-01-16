@@ -1,0 +1,24 @@
+Address-Country-State-District-Area-Street
+
+getPatientByStreetName(String )
+getPatientByState(String name)
+getPatientByArea(String areaName)
+getPatientByStreetNo(int streetNo)
+
+
+
+
+private int stateId;
+private String stateName;
+private DistrictDTO district;
+
+districtDTO{
+
+private int districtId
+private String districtName;
+private AreaDTO area;
+
+AreaDTO{
+  private Integer areaId;
+  private String areaName;
+ private int streetNo;

@@ -1,0 +1,9 @@
+compile time exception at compileruntime
+extends exception
+
+
+
+
+runtime
+runtime extends runtimeexception
+ex:ClassCastException

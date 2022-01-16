@@ -1,0 +1,27 @@
+static vs instance 
+
+class Institute{
+
+static String name="X-workz";
+       String address="Rajajinagar";
+
+}
+
+
+Institute ins = new Institute();
+static are considered as class members---we need not to create object
+static data shared with different objects in a memory
+static members are loaded  class is loaded
+for static we dont need to create objects
+*static non access modifiers
+
+instance are considered as object members             -----we should create object
+instance members at the time when object is created
+instance are not shared to different objects
+for instance we need to create objects
+
+
+
+
+
+

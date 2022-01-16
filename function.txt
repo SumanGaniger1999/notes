@@ -1,0 +1,28 @@
+signed number
+
+
+1
+
+
+
+
+public Shoppingmsll clone()
+returnv(Shoppingmall)super.clo
+
+
+CRUD  is DAO
+DAO-dATA Access Object
+
+private  Colle<> =
+
+
+
+public booleab  save(){
+return regNo
+
+
+
+dao.savvve(0)
+
+
+boolea found=dao.find

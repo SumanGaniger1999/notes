@@ -1,0 +1,37 @@
+List is a interface present java.util
+subinterface of collection
+List preserves insertion order
+List is a ordered format 
+ordered->it preserves insertion order
+insertion->the order we insert the data in the list
+
+It can accept enumber of null values
+it accepts duplicate values
+
+implementation help to insert in list
+
+object is created using implement i.eArrayList<>()
+Arraylist has default size has 10.
+Arrylist is defined using datastrutre built on  resizable array
+Java assign the default value
+
+Formula for ArrayList 
+int newCapacity= OldCapacity+(OldCapacity>>1)
+it increases upto 50%
+grow method helps to get newCapacity
+if i want to add 11 then grow method helps to 
+
+ search operation is faster in ArrayList uses RandomAccess
+Only ArrayList class has randomAccess,but other classes dont have RandomAccess
+ArryList implements three interfaces namely RandomAccess,Cloneable,Serializble
+RandomAccess is a MarkerInterface(empty interface)ex:RandomAccess
+RandomAccess helps to fectch faster then for loop
+even Vector class uses RandomAccess but it is not used now becuze of size it becomes double
+
+In ArrayList->
+List has 
+It will do upcasting
+hasNext() method checks the data is present and return type is boolean
+next() method return Object
+
+

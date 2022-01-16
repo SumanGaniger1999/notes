@@ -1,0 +1,27 @@
+ //Data transfering object.....becuz to store data in dto .dto is considered as design(DTO is a Design Pattern)
+DTO
+In order to create a DTO ,we have to follow 5 rules 
+5 Rules
+1)the class defined as DTO  should be public class 
+2)it should have one default constructor public PatientDTO(){
+3)the class you contain must be private property or private data members.
+4)all the private data we need to create as public getter and setter
+getter means get method and setter means set method
+5)
+Setter is used to initlization
+Two types of intilization
+1)Construction initlization
+2)Setter initlization
+
+How will you achieve encapsulation ? By using private ..private contain data
+Encapsulation is binding the data into single unit
+What is the return type of getter?
+the returntype of getter depends on data
+
+Setter return type is void.
+Through dto data is stored
+
+private can be used for method and variables
+private is a keyword we achieve encapsulation
+classname Ends with DTO
+Some organisation call Dto AS bean

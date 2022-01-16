@@ -1,0 +1,18 @@
+*toString notes
+*access modifier is public
+*return type is String
+*No argumnets
+*member type is non-static
+
+
+Description
+*Returns a string representation of an object on which it is called String format"Fully Qualified ClassName at the rate @hexadecimal address
+
+if we print the reference of any object toString() method is called implicitly at runtime
+in Java language whenever we print the reference of an object or the object itself then jvm implicitly makes a call to the toString() method of object,it will just return the string repersentation of an object
+*if the toString() method is overrided,the we should get the overrided result or overrided implmentation,otherwise we should get the implentation provided in object class 
+
+Why should we override toString() ?
+The toString method is the member of object class which is implemented to Return string representation of an object ,when developing classes related to the project it is not recomended to use the implementation provided by the object class,instead it should be generally overrided to return the state of an object in a string format so that ,the user will know the object index rather then knowing the className and address 
+
+ 

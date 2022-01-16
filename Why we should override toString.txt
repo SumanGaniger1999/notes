@@ -1,0 +1,4 @@
+Why we should override toString
+To get an state of the object and it should not show @the rate of hexaDecimal.
+
+toString its a method of object class 

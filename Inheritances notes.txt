@@ -1,0 +1,25 @@
+There are 11 methods which are by default installed in class Object--supermost class in java---root class
+It is the first class in java
+
+11 methods
+
+1)hashCode()
+2)toString()
+3)getClass()
+4)equals()
+5)finalize()
+6)notify()----------       "
+7)notifyAll()------Multithreaded concept
+8)wait()------------------------MO "
+9)wait(one parameter)-----------Method overloading "
+10)wait(two parameter)-----------MO "
+11)clone()---used to create object without using new---It creates a multiple copy of a class. 
+
+types of inheritance:
+An object behaving differently in a class is called polymorphism
+multilevel inheritance
+multiple child class extending one parent class is called Hierarchical inheritance.
+advantage is code reusability
+
+parent class,super class,Base class
+child class, sub class,derived class,  upward arrow mark means extends

@@ -1,0 +1,58 @@
+package com.xworkz.pubapp.exception;
+//Custom Checked Exception
+public class PubException extends RunTimeException {
+	@Override
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return "Child.....go home and study for Exam";
+		
+	}
+
+}
+
+
+
+
+package com.xworkz.pubapp.bouncer;
+
+import com.xworkz.pubapp.exception.PubException;
+
+public class Bouncer {
+	
+	public void check(int age) {          //its not necessary to write throws in runtimeexception or custom unchecked 
+		if(age<=18) {
+			
+			throw new PubException();         //throw always Exception
+			//throw new PubEXCEPTION
+		}
+		else {
+			System.out.println("Please Enter and Enjoy ");
+		}
+	}
+
+}
+
+
+
+
+
+
+
+package com.xworkz.pubapp;
+
+import com.xworkz.pubapp.bouncer.Bouncer;
+import com.xworkz.pubapp.exception.PubException;
+
+public class PubTester {
+	public static void main(String[] args) {
+		Bouncer bouncer=new Bouncer();
+		try {
+			bouncer.check(19);
+		} catch (PubException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			e.getMessage();
+		}
+	}
+
+}

@@ -1,0 +1,41 @@
+two types of inside memory managment
+1)heap memry
+2)Stack memry
+
+object are stored inside heap memory in java .
+
+heap mrmy again has two types
+1)new generation 
+2)old generation
+
+Object created into new generation
+Again in new gen it has three parts
+1)Eden memry
+2)Suvivor memry1
+3)Survivor memry2
+inside new gen object created in eden mrmy
+
+jvm calls GC(garbage Collection) to clear mrmy
+What will happen when GC is called?
+->all dereferenced object get clear out  
+
+Whenever GC is called in old gen is called major GC 
+Whenevrer GC is called in new gen is called minor gc
+
+if a developer wants to call GC then we use finally method
+
+major memry affects the application,so minor gc is good
+
+Purpose of permanent Gen or nonHeap memry is:method Blocks
+inide method ,blocks:class structures ,it has static,constant,static is called first
+
+Stack is a place where application get started
+Stack memory purpose to execute all methods we write in application
+for each method frame gets created in stack memry
+1method=1frame
+all parameters go and store in frame
+refrence variable is stored in stack mrmy ,inside stack in frame
+all local variables get stored in frame
+refrence variable will nt directly point to object,it points memory location of a particular object
+stack memory will also have information of next line
+after stack gets empty

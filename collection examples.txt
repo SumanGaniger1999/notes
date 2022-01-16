@@ -1,0 +1,10 @@
+add 20 Objects into the Collection
+
+10 Objects
+10 Objects of DTO type;
+
+
+
+
+
+collection.add(new DTO(" "));

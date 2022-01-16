@@ -1,0 +1,18 @@
+Has-A relationship
+Laptop-HardDisk
+Pen-reffil
+Cone- iceCream
+Mobile-Sim
+Hospital-Patient
+Camera-Lens
+Human-Heart
+Folder-ImportantFiles
+Cpu-Processor
+Hardisk-data
+Airport-terminals
+Tank-water
+Temple-poojari
+Movie -Actor
+Shirt -buttons
+Watch-cell
+Sea-seashore

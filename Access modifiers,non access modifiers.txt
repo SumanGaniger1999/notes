@@ -1,0 +1,8 @@
+
+Non-Access modifiers---static,final,abstract,syncronized
+
+Access-modifiers
+public 
+private-any method having private it is applicable within class
+default -String NAME.
+protected--Inheritance

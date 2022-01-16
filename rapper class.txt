@@ -1,0 +1,19 @@
+primitive                wraper class
+
+byte                       Byte
+
+short                      Short
+
+int                        Integer
+
+float                      Float
+
+long                       Long
+
+char                       Character
+
+boolean                    Boolean
+
+double                     Double
+
+wraper class is used for conversion                  

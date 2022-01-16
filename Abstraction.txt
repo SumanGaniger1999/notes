@@ -1,0 +1,121 @@
+Hiding the implementation & allowing the user to access only the functionality with the help of interface is known as abstraction.
+Change in a implementation which will not affect user loose coupling.It can be achieved only by interface. 
+olp of abstraction is loose coupling
+
+interface is media which communicate with user and any device.//two program
+Change in a implementation which affecting the user is called type coupling.
+advantage of abstraction is to achieve Loose coupling
+Method which doesnot contains body is abstract method
+interface contain abstract method
+interface is a keyword in java
+Abstracts is done by using implements.implements is keyword
+abstract keyword is  with  class ,interface and methods.
+interface contains abstract method.
+interface doesnt contain constructors
+we cannot create any interface in java
+ISwitch iSwitch=new ISwitch();//we cannot create any interface in java i.e ISwitch
+
+to achieve 100% interface class is better.
+
+
+if we use interface left should be                 and rigth should be
+
+
+
+
+
+eclipse
+for creating interface ..we have to write I_ 
+if we dont want to override then we use abstract keyword
+ex:package com.xworkz.serveapp;
+
+public abstract class HotelImplementation implements IShop {
+
+	@Override
+	public void served() {
+     System.out.println("Served");
+		
+	}
+
+	
+}
+
+
+hotelimplements shop
+shop is a interface
+functionality is serve
+abstract
+
+Factory Design Pattern-factory having different objects of same type
+factory takes input as String and o/p as implementation object 
+
+
+functionality of any object is not directly return to interface pr object
+consumer logic is imp 
+
+cart is interface
+swipe is a functionaity
+bank implementation
+bankFactory
+
+we cannot create 
+in interface by default it takes variable public static final
+
+abstract cannot have by default public static final
+ex:if we want to write static then we should write static 
+cannot have contructor for interface class
+instantiate means object creation
+we cannot intantiate interface and abstract
+it is not mandatory to have abtract method in abstract class
+
+
+
+
+class-we use public class 
+if we know complete 
+explicitly we have to specify static,local,instance variables
+interface -we use interface keyword
+
+variable will be default public static final
+
+
+abstract-we use abstract keyword
+variable
+
+ 
+ class extends the abstract class
+but interface only  implements 
+
+multiple inheritance is not possible in java
+i can overcome multiple inheritance through  interface
+
+ex:
+ public interface Box{
+   void store();
+}
+
+
+public interface Box1{
+void store();
+}
+
+public class Tupperware implements Box,Box1{
+
+@Override
+public void store(){
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+return impl object

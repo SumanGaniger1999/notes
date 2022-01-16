@@ -1,0 +1,6 @@
+SupermarketTester sup=new SupermarketTester();//these are object literals
+SupermarketTester sup=sup;
+
+in this we have only one object 
+
+by using new we create object

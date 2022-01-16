@@ -1,0 +1,34 @@
+       There are 11 methods which are by default installed in class .Object--supermost class in java---root class
+object is the first class in java
+
+11 methods
+
+1)hashCode()
+2)toString()
+3)getClass()
+4)equals()
+5)finalize()
+6)notify()----------       "
+7)notifyAll()------Multithreaded concept
+8)wait()------------------------MO "
+9)wait(one parameter)-----------Method overloading "
+10)wait(two parameter)-----------MO "
+11)clone()---used to create object without using new---It creates a multiple copy of a class. 
+
+An object behaving differently at given instance of time is called polymorphism
+
+Protected is always used in the inheritance
+
+To perform polymorphism two objects are created
+
+Two types of polymorphism:
+1)Compile time polymorphism---also called method overloading or static Binding or polymorphism 
+2)Run time      "-----Method overriding or dynamic polymorphism
+
+
+In method overloading we have 2 types
+1)Static overloading
+2)non static overloading
+
+The call to the method is decided by compile time is called compile time polymorphism
+"           "                       run time     "           run time     "

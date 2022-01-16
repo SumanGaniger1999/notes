@@ -1,0 +1,8 @@
+Hospital has Nurses
+Movie has Actors
+Mobile has Applications
+Keyboard has keys
+Mouth has teeths
+Wardrobe has Gold
+Bus has Passengers
+ 

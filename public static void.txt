@@ -1,0 +1,2 @@
+String arg to take data from command  line
+to give output at runtime

@@ -1,0 +1,7 @@
+non primitve datatypes contain class
+String is Object 
+but Object is not a String
+String is a class
+
+final is immutable
+we can create own immutable class by using final 

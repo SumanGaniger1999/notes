@@ -1,0 +1,50 @@
+
+4 operations to store data:-
+ Create,
+ Read,
+ Delete,
+ Update.
+
+
+Tax
+Country
+IPL----
+WatchFactory----
+ShoppingMallS----
+Company
+RTO
+Airport----
+Engineer---
+Temple----
+
+Class name is user defined
+String is inbuilt class
+System is inbuilt class
+java has 6000+ inbuilt classes
+
+Array is a group of similar values or It is a container which store group of similar type of  data into a single variable.
+  
+ EX: String countryName={"India","Sri Lanka","England","South Africa","USA","Pakistan","China"};
+ 
+     int    noOfStates={29,18,10,19,20,16,9,15};
+
+always array values are associated with index
+
+3 WAYS to declare arr
+1.DataTypes variableName[];
+2.DataTypes[] variableName;
+3.datatype   []variableName;
+
+length will stsrt with 1 so on
+inbdex starts with 0 and ends with length-1
+
+
+Syntax
+datatype variableName[]={data};
+datatype variableName=new datatype[length];
+
+we can create different array by using Object type
+constraint,
+common problem -
+user provides default value for array
+array has no default value
